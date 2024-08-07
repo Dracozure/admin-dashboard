@@ -2,6 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+    --nav-pad: 15px;
+    --nav-pad-left: 15%;
+    --nav-font-size: 1.8rem;
 }
 
 .container {
@@ -16,6 +20,33 @@ nav {
     grid-column: 1 / 2;
     grid-row: 1 / span all;
     background-color: lightblue;
+}
+
+nav h2 {
+    padding: var(--nav-pad);
+    padding-left: var(--nav-pad-left);
+    font-size: 2.2rem;
+}
+
+nav > div {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: var(--nav-font-size);
+    padding: var(--nav-pad);
+    padding-left: var(--nav-pad-left);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #000000;
 }
 
 header {
