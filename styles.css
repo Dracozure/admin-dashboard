@@ -23,7 +23,7 @@ nav {
 }
 
 nav h2 {
-    padding: var(--nav-pad);
+    padding: 1.7rem;
     padding-left: var(--nav-pad-left);
     font-size: 2.2rem;
 }
@@ -37,6 +37,7 @@ nav > div {
     font-size: var(--nav-font-size);
     padding: var(--nav-pad);
     padding-left: var(--nav-pad-left);
+    row-gap: 1.1rem;
 }
 
 nav a {
@@ -57,5 +58,45 @@ header {
 .body-container {
     grid-column: 2;
     grid-row: 2;
+}
+
+/* Body Grid */
+
+.body-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* Card Grid */
+
+.projects-container {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 1fr));
+    flex: auto;
+    gap: 1.1rem;
+    padding: 15px;
+}
+
+.card {
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.announcements-container {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.trending-container {
+    grid-row: 2;
+    grid-column: 2;
 }
 
