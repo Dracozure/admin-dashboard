@@ -16,6 +16,30 @@
     height: 100vh;
 }
 
+/* Header */
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.head-1,
+.head-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-group {
+    display: flex;
+    column-gap: 1.9rem;
+}
+
+.button-group button {
+    font-size: 1.3rem;
+    flex: 1 1 0px;
+}
+
 /* Nav Bar */
 
 nav {
