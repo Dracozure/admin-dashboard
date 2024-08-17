@@ -38,6 +38,11 @@ header {
 .button-group button {
     font-size: 1.3rem;
     flex: 1 1 0px;
+    font-size: 1.6rem;
+    padding: 7px 20px;
+    border-radius: 15px;
+    background-color: lightcyan;
+    border: 2px solid black;
 }
 
 /* Nav Bar */
