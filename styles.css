@@ -44,6 +44,17 @@ header {
     border: 2px solid black;
 }
 
+.head-2 .profile-display {
+    display: flex;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+.profile-display img {
+    border-radius: 15px;
+    width: 60px;
+}
+
 /* Nav Bar */
 
 nav {
