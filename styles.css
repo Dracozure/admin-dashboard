@@ -148,11 +148,35 @@ h3 {
     border: 1px solid black;
 }
 
+/* Announcements */
+
 .announcements-container {
     grid-row: 1;
     grid-column: 2;
-    padding: var(--container-padding);
+    padding: 15px;
+
+    display: flex;
+    flex-flow: column nowrap;
 }
+
+.announcements-content {
+    display: flex;
+    flex-flow: column wrap;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    justify-content: space-around;
+    padding: 15px;
+    flex: auto;
+}
+
+.announcements-content span {
+    width: 100%;
+    min-height: 1px;
+    background-color: black;
+}
+
+/* Trending */
 
 .trending-container {
     grid-row: 2;
