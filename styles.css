@@ -203,6 +203,7 @@ h3 {
 
 .trending-content div {
     display: flex;
+    column-gap: 18px;
 }
 
 .trending-content img {
