@@ -30,6 +30,31 @@ header {
     justify-content: space-around;
 }
 
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 2;
+    justify-content: center;
+}
+
+.info {
+    flex: 1;
+}
+
+.search-bar img {
+    width: 30px;
+}
+
+.search-bar span {
+    display: inline-block;
+    max-width: 500px;
+    min-height: 30px;
+    border-radius: 20px;
+    background-color: rgb(219, 218, 218);
+    flex: auto;
+}
+
 .button-group {
     display: flex;
     column-gap: 1.9rem;
