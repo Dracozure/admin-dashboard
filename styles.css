@@ -231,6 +231,7 @@ h3 {
 
     display: flex;
     flex-flow: column nowrap;
+    min-width: 282px;
 }
 
 .announcements-content {
@@ -266,6 +267,7 @@ h3 {
     grid-row: 2;
     grid-column: 2;
     padding: var(--container-padding);
+    min-width: 282px;
 }
 
 .trending-content {
@@ -289,7 +291,14 @@ h3 {
     border-radius: 50%;
 }
 
-@media only screen and (max-width: 1000px) {
+.trending-content span {
+    row-gap: 8px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1186px) {
     .cards {
         grid-auto-flow: column;
         grid-template-columns: 1fr;
