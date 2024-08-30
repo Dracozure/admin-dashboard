@@ -218,8 +218,10 @@ h3 {
 }
 
 .card {
-    background-color: lightcoral;
-    border: 1px solid black;
+    background-color: white;
+    border-left: 10px solid yellow;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px darkgray;
 }
 
 /* Announcements */
