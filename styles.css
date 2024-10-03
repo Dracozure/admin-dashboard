@@ -218,6 +218,8 @@ h3 {
 }
 
 .card {
+    display: flex;
+    flex-flow: column nowrap;
     background-color: white;
     border-left: 10px solid rgb(238, 178, 67);
     border-radius: 10px;
