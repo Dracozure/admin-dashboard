@@ -37,20 +37,13 @@ a {
 header {
     display: grid;
     grid-template-rows: 1fr 1fr;
-}
-
-.head-1,
-.head-2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
 }
 
 .search-bar {
     display: flex;
     align-items: center;
     gap: 10px;
-    flex: 2;
     justify-content: center;
 }
 
@@ -68,7 +61,6 @@ header {
 }
 
 .info {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,19 +84,20 @@ header {
 .button-group {
     display: flex;
     column-gap: 1.9rem;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-group button {
     font-size: 1.3rem;
-    flex: 1 1 0px;
-    padding: 7px 20px;
     border-radius: 15px;
     background-color: lightcyan;
     border: 2px solid black;
 }
 
-.head-2 .profile-display {
+.profile-display {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 1.1rem;
 }
