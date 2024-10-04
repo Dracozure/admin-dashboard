@@ -234,6 +234,10 @@ h3 {
     font-size: 1.1rem;
 }
 
+.card img {
+    max-width: 35px;
+}
+
 /* Announcements */
 
 .announcements-container {
