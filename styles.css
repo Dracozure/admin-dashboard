@@ -8,6 +8,7 @@
     --nav-pad: 15px;
     --nav-pad-left: 15%;
     --nav-font-size: 1.8rem;
+    --box-shadow-default: 5px 5px 10px darkgray;
 }
 
 @font-face {
@@ -36,8 +37,10 @@ a {
 
 header {
     display: grid;
+    position: relative;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    box-shadow: var(--box-shadow-default);
 }
 
 header > * {
@@ -169,11 +172,6 @@ a img {
     max-width: 30px;
 }
 
-header {
-    grid-column: 2;
-    grid-row: 1;
-}
-
 .settings-container {
     margin-top: 2.5rem;
 }
@@ -223,7 +221,7 @@ h3 {
     background-color: white;
     border-left: 10px solid rgb(238, 178, 67);
     border-radius: 10px;
-    box-shadow: 5px 5px 10px darkgray;
+    box-shadow: var(--box-shadow-default);
 }
 
 .card h4 {
@@ -267,6 +265,7 @@ h3 {
     justify-content: space-around;
     padding: 15px;
     flex: auto;
+    box-shadow: var(--box-shadow-default);
 }
 
 .announcements-content div {
@@ -303,6 +302,7 @@ h3 {
     flex: auto;
     border-radius: 15px;
     padding: var(--container-padding);
+    box-shadow: var(--box-shadow-default);
 }
 
 .trending-content div {
