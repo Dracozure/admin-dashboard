@@ -91,6 +91,7 @@ header {
 .button-group button {
     font-size: 1.3rem;
     border-radius: 15px;
+    padding: 5px 12px;
     background-color: lightcyan;
     border: 2px solid black;
 }
