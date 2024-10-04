@@ -40,6 +40,10 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
+header > * {
+    margin: 1.1rem;
+}
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -322,7 +326,7 @@ h3 {
     .cards {
         grid-auto-flow: column;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(6, 1fr);
+        grid-template-rows: repeat(4, 1fr);
     }
 }
 
