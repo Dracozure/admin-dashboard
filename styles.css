@@ -220,6 +220,8 @@ h3 {
 .card {
     display: flex;
     flex-flow: column nowrap;
+    row-gap: 1.3rem;
+    padding: 1.1rem;
     background-color: white;
     border-left: 10px solid rgb(238, 178, 67);
     border-radius: 10px;
@@ -234,8 +236,16 @@ h3 {
     font-size: 1.1rem;
 }
 
+.card .interact-symbols {
+    display: flex;
+    align-self: flex-end;
+    margin: auto 1.2rem 1.3rem 0;
+    column-gap: 1.5rem;
+}
+
 .card img {
     max-width: 35px;
+    width: 35px;
 }
 
 /* Announcements */
