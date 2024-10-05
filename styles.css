@@ -184,7 +184,7 @@ a img {
 
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-column: 2;
     grid-row: 2;
     background-color: lightgray;
@@ -195,6 +195,13 @@ a img {
 h3 {
     font-size: var(--container-header-font-size);
     margin-bottom: 15px;
+}
+
+/* Announcement Trending Container */
+
+.announcement-trending-container {
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 /* Card Grid */
@@ -255,6 +262,7 @@ h3 {
     display: flex;
     flex-flow: column nowrap;
     min-width: 282px;
+    flex: 1;
 }
 
 .announcements-content {
@@ -292,6 +300,7 @@ h3 {
     grid-column: 2;
     padding: var(--container-padding);
     min-width: 282px;
+    flex: 1;
 }
 
 .trending-content {
