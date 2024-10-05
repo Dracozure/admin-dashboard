@@ -189,7 +189,6 @@ a img {
     grid-row: 2;
     background-color: lightgray;
     padding: 15px;
-    min-height: 0;
 }
 
 h3 {
